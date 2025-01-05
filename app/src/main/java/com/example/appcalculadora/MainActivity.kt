@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
             if (oneNumber == "" || twoNumber == "") {
                 Snackbar.make(edtOneNumber,"Preencher todos os campos", Snackbar.LENGTH_LONG).show()
+                Snackbar.make(edtTwoNumber,"Preencher todos os campos", Snackbar.LENGTH_LONG).show()
 
             } else {
                 val oneNumber: Float = edtOneNumber.text.toString().toFloat()
